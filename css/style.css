@@ -1,0 +1,107 @@
+section{
+    width:100 ;
+    padding:105px 0px ;
+    height:200vh ;
+}
+
+.parent{
+    position: relative;
+    width: 350px;
+    height:250px ;
+    background: green ;
+
+}
+
+.child{
+    width: 130px;
+    height:130px ;
+    color: rgb(235, 135, 193);
+    text-align: center;
+    font-size:60px ;
+    line-height:100px ;
+
+}
+.child1{
+    position: absolute;
+    background: red;
+    left:83px ;
+    top: 64px; 
+    border-radius: 50% ;
+    
+}
+
+.parent2{
+    position: relative;
+    margin-top: 50px;
+    width: 300px;
+    height: 150px;
+    background: rgb(111, 66, 148);
+
+}
+
+.child2{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background:  rgb(111, 66, 148);
+    bottom: -20px;
+    left: 48px;
+    transform: rotate(45deg);
+}
+.icons{
+    text-align: center;
+    position: fixed;
+    right: -259px;
+    top: 80px;
+    transition: 0.7s all ease-in-out;
+}
+
+.icons:hover{
+    right: 0;
+    transition: 0.7s all ease-in-out;
+}
+
+.icons ul{
+    margin: 0;
+    padding: 0;
+
+}
+.icons ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 25px 10px;
+    width: 60px;
+    height: 60px;
+    background: #4a458d;
+    line-height: 65px;
+    border-radius: 50px;
+    transition: 0.6s;
+
+}
+.icons ul li a i {
+    color:whitesmoke;
+    font-size: 25px;
+    transition: 0.5s;
+
+}
+.icons ul li :hover .fa {
+    transform: scale(1.3);
+    transition: 0.6s;
+}
+.scroll-up{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(0, 119, 255);
+    line-height: 70px;
+    text-align: center;
+    right: 20px;
+    bottom: 20px;
+
+}
+
+.scroll-up a i{
+    color: whitesmoke;
+    font-size: 30px;
+    align-content: center;
+}
